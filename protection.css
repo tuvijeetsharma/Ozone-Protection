@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=Concert+One&family=Handlee&family=Mali&display=swap");
+
+body {
+  text-align: center;
+  font-family: "Mali", cursive;
+  margin: 0;
+  background-color: #FADADD;
+}
+
+.direction {
+  /* background-image: url("https://i.pinimg.com/originals/4a/ae/7e/4aae7e7dec2f5a0a3866faf051b17f67.png"); */
+  padding: 5%;
+  background-size: cover;
+  font-size: x-large;
+  background-image: url("https://image.freepik.com/free-vector/pastel-pink-purple-abstract-watercolor-background_65186-452.jpg");
+}
+
+.point1,
+.point3,
+.point6 {
+  background-color: #e3caff;
+  padding: 10%;
+  font-size: x-large;
+}
+
+.all {
+  font-size: x-large;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.random,
+.back {
+  padding: 10%;
+  font-size: x-large;
+}
+
+.point2,
+.point5 {
+  padding: 10%;
+}

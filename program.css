@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap');
+
+
+body {
+    font-family: 'Gaegu', cursive;
+    text-align: center;
+    background-color: #f7dada;
+    font-size: xx-large;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

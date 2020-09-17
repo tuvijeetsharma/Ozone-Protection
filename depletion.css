@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@700&family=Gochi+Hand&family=Handlee&family=Mali:wght@600&family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+
+body {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Mali', cursive;
+    margin: 0;
+    background-color: #afb1b4;
+}
+
+.back-to-the-top {
+    padding: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.header {
+    font-family: 'Gaegu', cursive;
+    background-color: black;
+    color: white;
+}
+
+.part1,
+.part4,
+.part7 {
+    font-family: 'Mali', cursive;
+    background-color: #afb1b4;
+    padding: 10%;
+}
+
+.part2,
+.part5 {
+    font-family: 'Mali', cursive;
+    background-color: #c9cacc;
+    padding: 10%;
+}
+
+.part3,
+.part6 {
+    font-family: 'Mali', cursive;
+    background-color: #b8b9bc;
+    padding: 10%;
+}
+
+h2 {
+    font-family: 'Gaegu', cursive;
+    font-size: 200%;
+}
+
+h3 {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 200%;
+}
+
+
+
+
+
+.cloud-text {
+    font-family: 'Coiny', cursive;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/clouds.jpg);
+    background-size: auto;
+    background-attachment: unset;
+    background-position: 0%;
+    width: 80%;
+    margin: 10%;
+    font-size: 134px;
+    animation: clouds-moving infinite 220s;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-timing-function: linear;
+    text-align: center;
+}
+
+@keyframes clouds-moving {
+    0% {
+        background-position: 0%;
+    }
+
+    50% {
+        background-position: 100%;
+    }
+
+    100% {
+        background-position: 0%;
+    }
+}
+
+.attribute {
+    position: relative;
+    font-size: 26px;
+    text-align: center;
+}

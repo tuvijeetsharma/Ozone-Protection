@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="protection.css" />
+    <title>Ozone protection</title>
+</head>
+
+<body>
+    <div class="all">
+        <div class="direction" id="here">
+            <span style="font-size: 30px; cursor: pointer" onclick="openNav()">&#9776;
+                Click
+                here to know more !!</span>
+            <h1>Protecting the Ozone</h1>
+        </div>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="depletion.html">Depletion</a>
+                <a href="protection.html">protection</a>
+                <a href="program.html"> Our new Program <a></a>
+            </div>
+        </div>
+        <div class="point1">
+
+            <p>1. Avoid the consumption of gases dangerous to the ozone layer, due to their content or manufacturing
+                process. Some of the most dangerous gases are CFCs (chlorofluorocarbons), halogenated hydrocarbon,
+                methyl bromide and nitrous oxide.</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="point2">
+            2. Minimize the use of cars. The best transport option is urban, bicycle, or walking. If you use a car to a
+            destination, try to carpool with others to decrease the use of cars in order to pollute less and save.
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="point3">
+            <p>3. Do not use cleaning products that are harmful to the environment and to us. Many cleaning products
+                contain
+                solvents and substances corrosive, but you can replace these dangerous substances with non-toxic
+                products
+                such as vinegar or bicarbonate.</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="point5">
+            <p>4. Buy local products. In this way, you not only get fresh products but you avoid consuming food that has
+                traveled long distances. As the more distance traveled, the more nitrous oxide is produced due to the
+                medium
+                used to transport that product.
+            </p>
+        </div>
+        <br>
+        <br><br>
+        <div class="point6">
+            <p>5. Maintain air conditioners, as their malfunctions cause CFC to escape into the atmosphere.
+            </p>
+        </div>
+        <div class="back">
+            <a href="#here">Back to top 🔼 </a>
+        </div>
+    </div>
+</body>
+<style>
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .overlay a:hover,
+    .overlay a:focus {
+        color: #F1F1F1;
+    }
+
+    .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+    }
+
+    @media screen and (max-height: 450px) {
+        .overlay a {
+            font-size: 20px;
+        }
+
+        .overlay .closebtn {
+            font-size: 40px;
+            top: 15px;
+            right: 35px;
+        }
+    }
+</style>
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+    }
+</script>
+
+</html>

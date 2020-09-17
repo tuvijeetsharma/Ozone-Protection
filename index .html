@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Ozone protection</title>
+</head>
+
+<body>
+  <div class="direction" id="here">
+    <span style="font-size: 30px; cursor: pointer" onclick="openNav()">&#9776;
+      Click
+      here to know more !!</span>
+
+    <h1>ECO-LUTION</h1>
+    <h3>Solving Enviornmental Issues without a stop</h3>
+  </div>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">`
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="depletion.html">Depletion</a>
+      <a href="protection.html">Protection</a>
+      <a href="program.html"> Our new Program </a>
+    </div>
+  </div>
+  <div class="organization">
+    <h1>ABOUT OUR ORGANIZATION !!</h1>
+    <p>Eco-lution is a Company which focuses on Enviornmental Issues from all around the world and <br>
+      brings volunteers together to save the planet. We are planning a number of events to create the awarness of <br>
+      enviornmental issues among the public. Soon we will be opening a registration form for those who are interested to
+      <br>
+      partner with us locally.<br>
+    </p>
+  </div>
+  <div class="random">
+    <div class="contact">
+      <h1>Feel Free to contact us 24/7 </h1>
+      <h5>Ways to contact us :
+      </h5>
+      <p>
+
+        India : 0091********** <br>
+        UAE: 00971********** <br>
+        Other Countries : ********* <br>
+        Email Id : *******@eco-luction.com <br>
+      </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="back">
+      <a href="#here">Back to top</a>
+    </div>
+    <p>All rights is to Eco-lution ©</p>
+  </div>
+
+</body>
+
+<style>
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #f1f1f1;
+  }
+
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px;
+    }
+
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+</style>
+
+<script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+</script>
+
+</html>

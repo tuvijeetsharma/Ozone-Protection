@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=Concert+One&family=Handlee&family=Mali&display=swap");
+
+body {
+  text-align: center;
+  font-family: "Mali", cursive;
+  margin: 0;
+  background-color: #37577a;
+}
+
+.direction {
+  background-image: url("https://wonderopolis.org/wp-content/uploads/2011/05/ozone_shutterstock_48725905.jpg");
+  padding: 20px;
+}
+
+.organization {
+  background-color: #1abacf;
+  padding: 10%;
+}
+
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.random {
+  padding: 10%;
+}
